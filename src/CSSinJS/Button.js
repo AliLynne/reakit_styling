@@ -17,19 +17,19 @@ const Button = ({ text }) => {
         &[aria-disabled="true"] {
           cursor: auto;
         }
-        /* &:not([aria-disabled="true"]) {
+        &:not([aria-disabled="true"]) {
           &:hover {
             color: #ffffff;
-            border-color: ${hoverBorderColor};
-            background-color: ${hoverBackgroundColor};
+            border-color: rgb(0, 87, 204);
+            background-color: rgb(0, 98, 230);
           }
           &:active,
           &[aria-expanded="true"] {
-            color: ${activeColor};
-            border-color: ${activeBorderColor};
-            background-color: ${activeBackgroundColor};
+            color: #ffffff;
+            border-color: rgb(0, 88, 207);
+            background-color: rgb(0, 78, 184);
           }
-        } */
+        }
       `}
     >
       {text}
